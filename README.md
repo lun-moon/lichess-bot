@@ -76,7 +76,7 @@ pip install -r requirements.txt
 - Unzip the file, it comes with lc0.exe , dnnl.dll, and a weights file ex: `703810.pb.gz` (amongst other files)
 - all three main files need to be copied to the engines directory
 - the lc0.exe should be doubleclicked and the windows safesearch warning about it being unsigned should be cleared (be careful and be sure you have the genuine file)
-- Change the `engine.name` and `engine.engine_options.weights` keys in config.yml to `lc0.exe`, no need to edit concerning the weights file as the lc0.exe will use whatever *.pb.gz is in the same folder (have only one *pb.gz in the engines directory)
+- Change the `engine.name` key in config.yml to `lc0.exe`, no need to edit config.yml concerning the weights file as the lc0.exe will use whatever *.pb.gz is in the same folder (have only one *pb.gz in the engines directory)
 - To start: `python lichess-bot.py` 
 
 ## For Docker
